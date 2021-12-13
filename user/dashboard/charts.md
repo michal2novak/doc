@@ -17,7 +17,7 @@ The graph shows number of **Projects** (right corner) for your organization and 
 
 By clicking the specific part in graph, you see an overview of selected projects.
 
-For more information visit **** [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/user/projects).
+For more information visit **** [**Projects**](../projects/).
 
 
 
@@ -61,20 +61,20 @@ In the right corner is shown number of **Nodes** and the pie chart shows their c
 
 ![Fig. 5: Nodes Overview](<../../.gitbook/assets/nodes overview.gif>)
 
-By clicking the graph you see [Kubernetes](https://itera.gitbook.io/taikun/user/projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Nodes.
+By clicking the graph you see [Kubernetes](../projects/kubernetes.md) overview, where you can find Projects with number of Healthy and Unhealthy Nodes.
 
 
 
 ### Pods overview
 
-In the right corner is shown number of [**Pods**](https://itera.gitbook.io/taikun/user/projects/kubernetes#pods) **** and the pie chart shows their current status (pointing arrow at some part of the graph):
+In the right corner is shown number of [**Pods**](../projects/kubernetes.md#pods) **** and the pie chart shows their current status (pointing arrow at some part of the graph):
 
 * Healthy
 * Unhealthy
 
 ![Fig. 6: Pods Overview](<../../.gitbook/assets/pods overview.gif>)
 
-By clicking the graph you see [Kubernetes](https://itera.gitbook.io/taikun/user/projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Pods.
+By clicking the graph you see [Kubernetes](../projects/kubernetes.md) overview, where you can find Projects with number of Healthy and Unhealthy Pods.
 
 
 
@@ -86,7 +86,7 @@ In the right corner is shown number of all **alerts** and the pie chart shows ho
 
 By clicking the graph you see Kubernetes overview, where you can find Projects with number of alerts.
 
-For more information see [Projects - **Alerts**](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details#alerts).
+For more information see [Projects - **Alerts**](../projects/project-details.md#alerts).
 
 
 
@@ -105,4 +105,4 @@ By clicking the graph you see Kubernetes overview, where you can find Projects (
 
 
 
-For more information see [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/user/projects) - Health paragraph.
+For more information see [**Projects**](../projects/) - Health paragraph.

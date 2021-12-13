@@ -10,4 +10,4 @@ Shows how many __ **Users** are involved in your organization.
 
 
 
-To find the information about your profile visit [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/user/my-profile).
+To find the information about your profile visit [**My Profile**](../my-profile.md).

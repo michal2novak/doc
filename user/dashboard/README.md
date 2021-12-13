@@ -6,15 +6,15 @@ description: Main Page
 
 You can access the Dashboard by clicking upper left Taikun logo or the _Dashboard_ in the tabs (under User):
 
-![Fig. 1: Dashboard and Project tabs](<../../.gitbook/assets/ac dash (3).gif>)
+![Fig. 1: Dashboard and Project tabs](<../../.gitbook/assets/access dash (9).gif>)
 
 
 
 On Dashboard you can find:
 
-* [**Users**](https://itera.gitbook.io/taikun/user-guide-1/user/dashboard/users)****
-* ****[**Pie charts** ](https://itera.gitbook.io/taikun/user-guide-1/user/dashboard/charts)(Projects, Server Statuses, Servers, Cloud Credential, Nodes Overview, Pod overview, Project with Alerts and Kubernetes Health)
-* ****[**Tables**](https://itera.gitbook.io/taikun/user-guide-1/user/dashboard/tables) (Kubernetes, Project Resource Allocation and Recent Events)
+* ****[**Users**](../../manager/users.md)****
+* ****[**Pie charts** ](charts.md)(Projects, Server Statuses, Servers, Cloud Credential, Nodes Overview, Pod overview, Project with Alerts and Kubernetes Health)
+* ****[**Tables**](tables.md) (Kubernetes, Project Resource Allocation and Recent Events)
 
 ****
 
@@ -22,7 +22,7 @@ On Dashboard you can find:
 
 On every page in the upper right corner you can see:
 
-![Fig. 2: Icons upper right](<../../.gitbook/assets/ikons upper right corenr (1).png>)
+![Fig. 2: Icons upper right](<../../.gitbook/assets/ikons upper right corner.png>)
 
 ![](../../.gitbook/assets/logo.png)
 
@@ -44,15 +44,15 @@ On every page in the upper right corner you can see:
 
 
 
-![](<../../.gitbook/assets/notifications (1).png>)
+![](../../.gitbook/assets/bells.png)
 
 * real-time notifications
-  * general - notifications about changes made in projects (e.g. created project, enable monitoring, change of status), for details see [Dashboard - **Recent Events**](https://itera.gitbook.io/taikun/user-guide-1/user/dashboard/tables#recent-events)****
-  * alerts - new/persisting (red) or resolved (green) alerts, see [Projects - **Alerts**](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details#alerts)****
+  * General - notifications about changes made in projects (e.g. created project, enable monitoring, change of status), for details see [Dashboard - **Recent Events**](tables.md#recent-events)****
+  * Alerts - new/persisting (red) or resolved (green) alerts, see [Projects - **Alerts**](../projects/project-details.md#alerts)****
 
 
 
 ![](<../../.gitbook/assets/my profile (2).png>)
 
-* your information and setting, see [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/user/my-profile)
+* your information and setting, see [**My Profile**](../my-profile.md)
 * if your display name is changed, the name can be seen in the corner![](<../../.gitbook/assets/my profile-name (2).png>)

@@ -38,7 +38,7 @@ If the status is failed, you can check the pod in Kubernetes section - use the l
 
 
 
-For more information see [Projects - **Kubernetes**](https://itera.gitbook.io/taikun/user-guide-1/user/projects/kubernetes).
+For more information see [Projects - **Kubernetes**](../projects/kubernetes.md).
 
 
 
