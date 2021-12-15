@@ -6,7 +6,7 @@ description: Summary and Details of All Projects
 
 You can preview all existing **Projects**.
 
-![Fig. 1: Projects](<../../.gitbook/assets/projects (6).png>)
+![Fig. 1: Projects](<../../../.gitbook/assets/projects (6).png>)
 
 _Select organization_ - choose organization to see all projects for your selection
 
@@ -68,9 +68,9 @@ Shows which provider is hosting your project cluster:
 
 #### K8's
 
-![](../../.gitbook/assets/kubernetes-active.png)Kubernates active
+![](../../../.gitbook/assets/kubernetes-active.png)Kubernates active
 
-![](../../.gitbook/assets/kubernetes-not-active.png)Kubernetes not active
+![](../../../.gitbook/assets/kubernetes-not-active.png)Kubernetes not active
 
 #### Expiration Date
 
@@ -82,7 +82,7 @@ After the expiration date, your project is **NOT** affected, deleted or lock. It
 
 #### Assigned Users
 
-![](<../../.gitbook/assets/assigned users.png>)First select organization, then edit which users should have access to the project
+![](<../../../.gitbook/assets/assigned users.png>)First select organization, then edit which users should have access to the project
 
 {% hint style="info" %}
 You can also assign the user to a project in [Users](https://itera.gitbook.io/taikun/user-guide-1/partner/users).
@@ -90,11 +90,11 @@ You can also assign the user to a project in [Users](https://itera.gitbook.io/ta
 
 #### Actions
 
-![](../../.gitbook/assets/lock.png) Lock Project - disable all buttons except _Kube info_ (see [Projects-**Project Details**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details))
+![](../../../.gitbook/assets/lock.png) Lock Project - disable all buttons except _Kube info_ (see [Projects-**Project Details**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details))
 
-![](<../../.gitbook/assets/lock (1).png>) Unlock Project - enable action buttons
+![](<../../../.gitbook/assets/lock (1).png>) Unlock Project - enable action buttons
 
-![](../../.gitbook/assets/delete.png) Delete - to delete a project, the project must be empty with status _Ready_
+![](../../../.gitbook/assets/delete.png) Delete - to delete a project, the project must be empty with status _Ready_
 
 
 
@@ -102,7 +102,7 @@ You can also assign the user to a project in [Users](https://itera.gitbook.io/ta
 
 Click small arrow on the right side of the table to see more details.
 
-![Fig. 2: Expanded table](<../../.gitbook/assets/projects-expand (3).png>)
+![Fig. 2: Expanded table](<../../../.gitbook/assets/projects-expand (3).png>)
 
 Expand the table to see:
 

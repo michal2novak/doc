@@ -1,8 +1,8 @@
 # Kubernetes
 
-To access **Kubernetes** go to Projects - Servers - _Kube Info_ or use the K8's button![](../../.gitbook/assets/kubernetes-active.png)in _Projects_.
+To access **Kubernetes** go to Projects - Servers - _Kube Info_ or use the K8's button![](../../../.gitbook/assets/kubernetes-active.png)in _Projects_.
 
-![Fig. 1: Access Kubernetes](<../../.gitbook/assets/access kubernetes (2).gif>)
+![Fig. 1: Access Kubernetes](<../../../.gitbook/assets/access kubernetes (2).gif>)
 
 
 
@@ -39,7 +39,7 @@ In **Kubernetes** tab can be found:
 
 
 
-![Fig. 2: Kubernetes](../../.gitbook/assets/k8s.gif)
+![Fig. 2: Kubernetes](../../../.gitbook/assets/k8s.gif)
 
 You can use sort buttons or search button in each section for easier search.
 
@@ -51,7 +51,7 @@ Except **Pods** tab are all tabs for preview only.
 
 #### Actions
 
-![](../../.gitbook/assets/detuails.png) Show description - for all tabs except _Nodes_
+![](../../../.gitbook/assets/detuails.png) Show description - for all tabs except _Nodes_
 
 __
 
@@ -59,7 +59,7 @@ __
 
 #### Kill Pod
 
-In **Pods** tab pod can be killed with kill pod button![](<../../.gitbook/assets/kill pod (1).png>).
+In **Pods** tab pod can be killed with kill pod button![](<../../../.gitbook/assets/kill pod (1).png>).
 
 ####
 
@@ -67,7 +67,7 @@ In **Pods** tab pod can be killed with kill pod button![](<../../.gitbook/assets
 
 Open **Terminal** to control remotely your container/s.
 
-![Fig. 3: Terminal](<../../.gitbook/assets/kubernetes - terminal.gif>)
+![Fig. 3: Terminal](<../../../.gitbook/assets/kubernetes - terminal.gif>)
 
 ​
 
@@ -75,4 +75,4 @@ Open **Terminal** to control remotely your container/s.
 
 Logs record events happening in cluster. You can check the logs for more details. To search the logs visit [Projects - Project Details - **Logs**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#logs).
 
-![Fig. 4: Logs](../../.gitbook/assets/kubernetes-logs.gif)
+![Fig. 4: Logs](../../../.gitbook/assets/kubernetes-logs.gif)

@@ -1,8 +1,8 @@
 # Create a New Project
 
-If you want to add a new project, use the upper right button![](<../../.gitbook/assets/add (4).png>)in **Projects** tab.
+If you want to add a new project, use the upper right button![](<../../../.gitbook/assets/add (4).png>)in **Projects** tab.
 
-![Fig. 1: Add Project](<../../.gitbook/assets/add project (12).gif>)
+![Fig. 1: Add Project](<../../../.gitbook/assets/add project (12).gif>)
 
 _Project Name_ - fill in your project name (only alphanumeric lowercase characters and dash are allowed, 3-30 characters; **not** underscore; e.g. my-project1)
 

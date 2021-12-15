@@ -40,7 +40,7 @@ By clicking the specific part in graph you see an overview of selected servers.
 
 In the right corner is shown number of all **Servers** for your organization. The graph shows where the servers are hosted (_AWS_, _Azure_, _OpenStack_). When you point at a column, exact number of servers used is shown.
 
-![Fig. 3: Server Statuses](<../../.gitbook/assets/servers (7).gif>)
+![Fig. 3: Servers](<../../.gitbook/assets/servers (7).gif>)
 
 
 
