@@ -100,6 +100,7 @@
 ## Tech Book
 
 * [LoadBalancers](tech-book/loadbalancers.md)
+* [Taikun Terraform Provider](tech-book/taikun-terraform-provider.md)
 
 ## Dictionary
 
