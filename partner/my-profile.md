@@ -63,7 +63,7 @@ Password should contain at least 1 uppercase, 1 lowercase, 1 number, 1 non alpha
 If you receive an error during changing the password, please check it meets the conditions.
 {% endhint %}
 
-![Fig. 4: Change Password](<../.gitbook/assets/new password.gif>)
+![Fig. 4: Change Password](../.gitbook/assets/change-password.gif)
 
 {% hint style="danger" %}
 After confirming the password (by clicking the update button), you are logged off and need to log in with the new password.

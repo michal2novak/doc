@@ -37,7 +37,7 @@ You just need to type your new e-mail, which you want to use in the future.
 
 Your e-mail address is changed but not confirmed, which is indicated with red cross:heavy\_multiplication\_x:next to your e-mail in _My Information_.
 
-![Fig. 4: Not confirmed e-mail](../.gitbook/assets/mail.png)
+![Fig. 4: Not confirmed e-mail](<../.gitbook/assets/unconfirmed e-mail (1).png>)
 
 Clicking the _Confirm E-Mail_ button will send the confirmation token to the e-mail address provided by you. Use the link in the mail to confirm your mail. If the link redirects you to homepage of Taikun, please login first and click the link in the e-mail again.
 
@@ -61,7 +61,7 @@ Password should contain at least 1 uppercase, 1 lowercase, 1 number, 1 non alpha
 If you receive an error during changing the password, please check that it meets the conditions.
 {% endhint %}
 
-![Fig. 4: Change Password](<../.gitbook/assets/new password.gif>)
+![Fig. 4: Change Password](../.gitbook/assets/change-password.gif)
 
 {% hint style="danger" %}
 After confirming the password (by clicking the update button), you are logged off and need to log in with the new password.
