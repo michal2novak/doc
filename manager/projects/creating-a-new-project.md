@@ -2,7 +2,7 @@
 
 If you want to add a new project, use the upper right button![](<../../.gitbook/assets/add (4).png>)in **Projects** tab.
 
-![Fig.1: Add Project](<../../.gitbook/assets/add project (11).gif>)
+![Fig.1: Add Project](../../.gitbook/assets/create-project.gif)
 
 _Project Name_ - fill in your project name (only alphanumeric lowercase characters and dash are allowed, 3-30 characters; **not** underscore; e.g. my-project1)
 
@@ -21,6 +21,8 @@ _Enable Auto Upgrade_ - Kubespray version will be automatically upgraded if new 
 _Enable Monitoring_ - monitoring a Kubernetes cluster allows easy management of containerized infrastructure by tracking utilization of cluster resources including memory, CPU, and storage
 
 _Enable Backup_ - choose credentials, you can create a new one in [**Backup Credentials**](https://itera.gitbook.io/taikun/user-guide-1/manager/backup-credentials)**.** If you choose not to enable it, you can change it later, see [Projects - Project details - **Backup**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#enable-disable-backup)****
+
+_Add Policy Profile_ - choose profile created in [**Policy Profile**](../policy-profiles.md) page. You can enforce or disable the gatekeeper later.
 
 _Add Expiration Date_ - set project durability, by default it is set to infinity. After the expiration date, your project is **NOT** affected, deleted or lock. It will stays the same.
 
