@@ -10,7 +10,7 @@ description: Features in My Profile
 You can change e-mail only if your mail is verified (confirmed).
 {% endhint %}
 
-If you want to change your mail for login or e-mail notifications, use _Change E-mail_ button and insert new e-mail address. Your new mail address is now working for your login and keep in mind it is not confirmed.
+If you want to change your mail for login or e-mail notifications, use _Change E-mail_ button and insert new e-mail address. You will receive mail to newly provided e-mail address, where you need to confirm the address.
 
 ![Fig. 1](<../.gitbook/assets/change mail (2).gif>)
 
