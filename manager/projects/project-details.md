@@ -96,7 +96,7 @@ Once the cluster is committed you will see [**ETC**](https://itera.gitbook.io/ta
 
 ### **Repair**
 
-When the server/s are _Failed_ or there is some other problem in the cluster, it can be repaired by changing the status to _Ready_. If all the servers have failed during the first creation, the repair button works as commit and you should use it. If only one server is failed, you should change only the one server's status, because repair will restart the status of all servers.
+When the server/s are _Failed_ or there is some other problem in the cluster, use repair button.
 
 ![Fig. 5: Repair](<../../.gitbook/assets/repair (6).gif>)
 

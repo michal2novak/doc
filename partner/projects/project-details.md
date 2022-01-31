@@ -2,7 +2,7 @@
 
 By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.
 
-![Fig. 1: Accessing project's details](<../../../.gitbook/assets/access servers (3).gif>)
+![Fig. 1: Accessing project's details](<../../.gitbook/assets/access servers (3).gif>)
 
 
 
@@ -10,11 +10,11 @@ By clicking the selected project you are redirected to the **Servers**. Here you
 
 Under **Servers** title is a brief description of a project - such as _Project Name_, _Project_ _Status_, _Cloud_ _Type_, _Kubernetes_ _Version_, _Access Profile_,  _Cloud_ _Credentials_, _Kubernetes_ _Profile_, _Alerting Profile_, _Access IP Address_ (if you use this address to ssh connect, please do not use user ubuntu, it's in use by Taikun for managing the cluster) and _Kubernetes Health_. Some of these include links to e.g. cloud or profiles.
 
-![Fig. 2: Brief Project Info](<../../../.gitbook/assets/label (1).png>)
+![Fig. 2: Brief Project Info](<../../.gitbook/assets/label (1).png>)
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
 
-![ETC](../../../.gitbook/assets/etc.png)
+![ETC](../../.gitbook/assets/etc.png)
 
 
 
@@ -22,7 +22,7 @@ You can also see here ETC=Estimated Time to Complete. It is approx time (in minu
 
 Every server is described by _ID_, _Server Name_, _IP Address_, _Flavor_, _CPU/RAM/Disk Size_, _Role_, _Status,_ _Kuebernetes Health_, _Creation Time_ and _Actions_. If you expand the table, you can see the last modification made (_Last Modified_, _Last Modified By_).
 
-![Fig. 3: Servers for Project](<../../../.gitbook/assets/servers (9).png>)
+![Fig. 3: Servers for Project](<../../.gitbook/assets/servers (9).png>)
 
 Server status can be:
 
@@ -39,9 +39,9 @@ Server status can be:
 
 **Actions**
 
-![](<../../../.gitbook/assets/show status.png>)Show Status - shows current status from the cloud for 3 seconds
+![](<../../.gitbook/assets/show status.png>)Show Status - shows current status from the cloud for 3 seconds
 
-![](<../../../.gitbook/assets/reboot (1).png>) Reboot - choose HARD or SOFT reboot for each server
+![](<../../.gitbook/assets/reboot (1).png>) Reboot - choose HARD or SOFT reboot for each server
 
 * HARD - the power to the system is physically turned off and back again causing an initial boot
 * SOFT - system restarts without the need to interrupt the power
@@ -56,7 +56,7 @@ For AWS and Azure there is only simple reboot available.
 
 ****
 
-#### **Actions** ![](../../../.gitbook/assets/actions.png)&#x20;
+#### **Actions** ![](../../.gitbook/assets/actions.png)&#x20;
 
 ### **Upgrade**
 
@@ -70,7 +70,7 @@ You can **** _Enable Backup_ **** if you have added the credentials in [**Backup
 
 After you enable the backup, you get notified through _Notification_ and you can check the successful status in Kubernetes. In Projects - Kubernetes - _Deployment_ section you should see _velero_ installed
 
-![Fig. 4: Velero tool](<../../../.gitbook/assets/velero (1).gif>)
+![Fig. 4: Velero tool](<../../.gitbook/assets/velero (1).gif>)
 
 After enabling backup, you should add [**Backup Policies**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#backup-policy).
 
@@ -94,9 +94,9 @@ Once the cluster is committed you will see [**ETC**](https://itera.gitbook.io/ta
 
 ### **Repair**
 
-When the server/s are _Failed_ or there is some other problem in the cluster, it can be repaired by changing the status to _Ready_. If all the servers have failed during the first creation, the repair button works as commit and you should use it. If only one server is failed, you should change only the one server's status, because repair will restart the status of all servers.
+When the server/s are _Failed_ or there is some other problem in the cluster, use repair button.
 
-![Fig. 5: Repair](<../../../.gitbook/assets/repair (7).gif>)
+![Fig. 5: Repair](<../../.gitbook/assets/repair (7).gif>)
 
 ###
 
@@ -106,13 +106,13 @@ Attach **** [**Alerting Profile**](https://itera.gitbook.io/taikun/user-guide-1/
 
 
 
-### ![](../../../.gitbook/assets/unlock.png)**Lock/**![](<../../../.gitbook/assets/lock (3).png>)**Unlock**
+### ![](../../.gitbook/assets/unlock.png)**Lock/**![](<../../.gitbook/assets/lock (3).png>)**Unlock**
 
-![](<../../../.gitbook/assets/lock (3).png>)Project is unlocked
+![](<../../.gitbook/assets/lock (3).png>)Project is unlocked
 
 Clicking the button you lock a project. You can preview some pages (e.g. _Kube Info_), but you can't make any changes in the project (see [Project Details - **Project info**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#project-info)).
 
-​![](../../../.gitbook/assets/unlock.png)Project is locked
+​![](../../.gitbook/assets/unlock.png)Project is locked
 
 Clicking the button you unlock a project and enable action buttons.
 
@@ -120,7 +120,7 @@ Clicking the button you unlock a project and enable action buttons.
 
 ### **Add Server**
 
-To create a new server click![](<../../../.gitbook/assets/add (1).png>)button and fill all the fields.
+To create a new server click![](<../../.gitbook/assets/add (1).png>)button and fill all the fields.
 
 You will receive an error message if no flavor has been bound to your project yet. You can also bind the flavor during project creation.
 
@@ -128,7 +128,7 @@ You will receive an error message if no flavor has been bound to your project ye
 
 Use the link to bind a flavor.
 
-![Fig. 6: Add Server](<../../../.gitbook/assets/add server (8).gif>)
+![Fig. 6: Add Server](<../../.gitbook/assets/add server (8).gif>)
 
 _Server Name_ - only alphanumeric characters and dash are allowed, 1-30 characters
 
@@ -187,7 +187,7 @@ The change **DOES NOT** have to be committed.
 
 This button will redirect you to Audit Log with pre-filled organization and project, so you can preview the changes made for the chosen project.
 
-![Fig. 7: History](<../../../.gitbook/assets/history (5).gif>)
+![Fig. 7: History](<../../.gitbook/assets/history (5).gif>)
 
 ###
 
@@ -195,7 +195,7 @@ This button will redirect you to Audit Log with pre-filled organization and proj
 
 Add a new kubernetes configuration for your profile and project.
 
-![Fig. 8: Add Kube Config](<../../../.gitbook/assets/kubeconfig (2).png>)
+![Fig. 8: Add Kube Config](<../../.gitbook/assets/kubeconfig (2).png>)
 
 _Kubeconfig Name_ - choose a name for your kubeconfig
 
@@ -216,13 +216,13 @@ _Application kubeconfig_ - choose if kubeconfig can be used by other users (_all
 
 You can see all project's configurations in the table with its _ID_, _Name_, _User_ _Name_, _User_ _Role_, _Project_, _Accessible for all_ and _Actions_.
 
-![Fig. 9: Kubeconfigs](<../../../.gitbook/assets/kubeconfig (3).png>)
+![Fig. 9: Kubeconfigs](<../../.gitbook/assets/kubeconfig (3).png>)
 
 #### Actions
 
-![](<../../../.gitbook/assets/download kube config.png>) This .yaml file can be download and use to organize information about clusters, users, namespaces, and authentication mechanisms.
+![](<../../.gitbook/assets/download kube config.png>) This .yaml file can be download and use to organize information about clusters, users, namespaces, and authentication mechanisms.
 
-![](<../../../.gitbook/assets/delete (2).png>) Delete your kube config if it is no longer needed. You can also delete _user's_ or _manager's_ kube configs.
+![](<../../.gitbook/assets/delete (2).png>) Delete your kube config if it is no longer needed. You can also delete _user's_ or _manager's_ kube configs.
 
 
 
@@ -242,7 +242,7 @@ You can sort Events by:
 * Filling _Start_ and _End Date_
 * Tick _Only failed_ to filter failed actions
 
-![Fig. 10: Events](<../../../.gitbook/assets/events (4).png>)
+![Fig. 10: Events](<../../.gitbook/assets/events (4).png>)
 
 ### Logs <a href="#logs" id="logs"></a>
 
@@ -250,11 +250,11 @@ Preview Kubernetes cluster logs to Grafana.
 
 Logs button is disabled if [**Monitoring is disabled**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#enable-disable-monitoring). To view logs, you must first _Enable Monitoring_.
 
-![Fig. 11: Logs](<../../../.gitbook/assets/logs (3).png>)
+![Fig. 11: Logs](<../../.gitbook/assets/logs (3).png>)
 
 Write your query and use _Start date_ and _End Date_ for sorting. You can also expand every message - red is an _added_ action, without color is other log.
 
-![Fig. 12: Logs details](<../../../.gitbook/assets/logs details.png>)
+![Fig. 12: Logs details](<../../.gitbook/assets/logs details.png>)
 
 ###
 
@@ -262,7 +262,7 @@ Write your query and use _Start date_ and _End Date_ for sorting. You can also e
 
 First thing when you access Alerts are _Firing Alerts_. This section is refreshed every 5 minutes, but you can also use the refresh button to see the most updated data.
 
-![Fig. 13: Firing alerts](<../../../.gitbook/assets/firing-alerts-refresh+silence (1).gif>)
+![Fig. 13: Firing alerts](<../../.gitbook/assets/firing-alerts-refresh+silence (1).gif>)
 
 To see all alerts, use upper right _Show All Alerts_ button. As seen above, firing alerts are marked with red color.
 
@@ -270,17 +270,17 @@ You can _silence_ alert and sort all the alerts by firing, silenced, all or reso
 
 Alerts are accessible only if _Monitoring_ is enabled and the project is not empty.
 
-![Fig. 14: Alerts](<../../../.gitbook/assets/firing alert-metrics (2).gif>)
+![Fig. 14: Alerts](<../../.gitbook/assets/firing alert-metrics (2).gif>)
 
 For each alert you can see details and use a link that will redirected you to [**Metrics**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#metrics) **** with the query already filled.
 
-The index number at _Alerts_ shows  the number of firing alerts. ![](<../../../.gitbook/assets/alerts - index number.png>) When the firing alerts are resolved, the number disappears.
+The index number at _Alerts_ shows  the number of firing alerts. ![](<../../.gitbook/assets/alerts - index number.png>) When the firing alerts are resolved, the number disappears.
 
 
 
 Firing alerts also work from the real-time notifications bell in header.&#x20;
 
-![Fig. 15: Alerts bell](<../../../.gitbook/assets/fir alerts notification.gif>)
+![Fig. 15: Alerts bell](<../../.gitbook/assets/fir alerts notification.gif>)
 
 The notification contains a brief message on a specific project and bellow the message is time of the change. After clicking _Show Project_, you can access the project in which the alert is.
 
@@ -296,7 +296,7 @@ Modify _Step_ or _Date_.
 
 Switch between _Console_ and _Graph_ for better results.
 
-![Fig. 16: Metrics](<../../../.gitbook/assets/metrics (1).gif>)
+![Fig. 16: Metrics](<../../.gitbook/assets/metrics (1).gif>)
 
 ****
 
@@ -304,7 +304,7 @@ Switch between _Console_ and _Graph_ for better results.
 
 After you [**Enable Backup**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#enable-disable-backup), you have to create a _Backup Policy_. After clicking the _Backup Policy ****_ button you get redirected to the new page, where you create a new policy with _Add Policy_ button.
 
-![Fig. 17: Add Policy](<../../../.gitbook/assets/backup policy (1).gif>)
+![Fig. 17: Add Policy](<../../.gitbook/assets/backup policy (1).gif>)
 
 _Name_ - choose a name for your backup (3-30 characters)
 
@@ -332,11 +332,11 @@ There are three tabs:
 
 In _Schedules_ you can find overview of your backup policy.
 
-![Fig. 18: Schedules](<../../../.gitbook/assets/backup policy - backups (3).png>)
+![Fig. 18: Schedules](<../../.gitbook/assets/backup policy - backups (3).png>)
 
-![](../../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. specification, metadata etc.
+![](../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. specification, metadata etc.
 
-__![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - stop the backup by deleting the policy
+__![](<../../.gitbook/assets/delete (2).png>)_Delete_ - stop the backup by deleting the policy
 
 
 
@@ -344,13 +344,13 @@ __![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - stop the backup by de
 
 _Backups_ contain backups from schedules.
 
-![Fig. 19: Backups](<../../../.gitbook/assets/backup policy - backups (2).png>)
+![Fig. 19: Backups](<../../.gitbook/assets/backup policy - backups (2).png>)
 
-![](../../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. specification, metadata etc.
+![](../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. specification, metadata etc.
 
-![](<../../../.gitbook/assets/reset vm.png>) _Restore backup_ - if anything goes wrong, you can restore the backup, which you will then see in _Restores_ tab
+![](<../../.gitbook/assets/reset vm.png>) _Restore backup_ - if anything goes wrong, you can restore the backup, which you will then see in _Restores_ tab
 
-__![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - delete the backup
+__![](<../../.gitbook/assets/delete (2).png>)_Delete_ - delete the backup
 
 
 
@@ -358,11 +358,11 @@ __![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - delete the backup
 
 Overview of restores from _Backups_.
 
-![Fig. 20: Restores](<../../../.gitbook/assets/backup policy - restores (1).png>)
+![Fig. 20: Restores](<../../.gitbook/assets/backup policy - restores (1).png>)
 
-![](../../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. metadata etc.
+![](../../.gitbook/assets/detuails.png)_Show description_ - see detailed e.g. metadata etc.
 
-__![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - delete the restore
+__![](<../../.gitbook/assets/delete (2).png>)_Delete_ - delete the restore
 
 
 
@@ -370,11 +370,11 @@ __![](<../../../.gitbook/assets/delete (2).png>)_Delete_ - delete the restore
 
 Dashboard is accessible only if cluster is created and [monitoring is enabled](project-details.md#enable-disable-monitoring).
 
-![Fig. 21: Dashboard](<../../../.gitbook/assets/dashboard (5).gif>)
+![Fig. 21: Dashboard](<../../.gitbook/assets/dashboard (5).gif>)
 
 Here you can see graphs with _Memory_ and _CPU_ usage for the project. You can also add **Query** you want.
 
-![Fig. 22: Add Predefined Query](<../../../.gitbook/assets/dashboard - query (1).png>)
+![Fig. 22: Add Predefined Query](<../../.gitbook/assets/dashboard - query (1).png>)
 
 _Name_ - choose name for your query (e.g. My Query)
 

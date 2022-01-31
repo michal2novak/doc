@@ -6,7 +6,7 @@ description: Summary and details of all Projects
 
 On the **Projects** tab, you can preview all existing projects to which you are assigned.
 
-![Fig. 1: Projects](<../../.gitbook/assets/project-overview (3).png>)
+![Fig. 1: Projects](<../../.gitbook/assets/projects (7).png>)
 
 
 
@@ -15,6 +15,10 @@ Each project is described by following information:
 #### ID, Project Name, Organization Name
 
 Changeless descriptions for each Project.
+
+#### View
+
+Link to your _Kubernetes_ or _Virtual_ _Machines_ part of your Project.
 
 #### Status
 

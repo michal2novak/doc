@@ -1,8 +1,8 @@
-# Project Details
+# Project Details - K8s
 
-By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.
+By clicking the selected project or K8s _View_ you are redirected to the **Kubernetes** **Servers**. Here you can see all K8s servers for the project with their description.
 
-![Fig. 1: Accessing Project's details](<../../.gitbook/assets/access project (1).gif>)
+![Fig. 1: Accessing Project's details - K8s](<../../.gitbook/assets/servers (8).gif>)
 
 
 
@@ -37,7 +37,7 @@ Server status can be:
 
 
 
-#### &#x20;**Actions**![](../../.gitbook/assets/actions.png)****
+#### &#x20;**Actions**
 
 ### **Upgrade**
 
@@ -53,7 +53,7 @@ Once the cluster is committed you will see [**ETC**](https://itera.gitbook.io/ta
 
 ### **Repair**
 
-When the server/s are _Failed_ or there is some other problem in the cluster, it can be repaired by changing the status to _Ready_. If all the servers have failed during the first creation, the repair button works as _commit_ and you should use it. If only one server is failed, you should change only the one server's status, because _repair_ will restart the status of all servers.
+When the server/s are _Failed_ or there is some other problem in the cluster, use repair button.
 
 ![Fig.4: Repair](<../../.gitbook/assets/repair (5).gif>)
 
