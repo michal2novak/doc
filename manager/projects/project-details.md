@@ -1,6 +1,6 @@
-# Project Details
+# Project Details - K8s
 
-By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.
+By clicking the selected project or K8s _View_ you are redirected to the **Kubernetes** **Servers**. Here you can see all K8s servers for the project with their description..
 
 ![Fig. 1: Accessing project's details](<../../.gitbook/assets/access project servers (1).gif>)
 

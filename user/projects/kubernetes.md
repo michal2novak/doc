@@ -41,7 +41,7 @@ In **Kubernetes** tab can be found:
 
 
 
-![Fig. 2: Kubernetes](<../../.gitbook/assets/kubernetes - overview.gif>)
+![Fig. 2: Kubernetes](<../../.gitbook/assets/k8s (2).gif>)
 
 You can use sort buttons or search button in each section for easier searching.
 
