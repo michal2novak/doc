@@ -5,7 +5,7 @@ description: Overview of Flavors for each Cloud
 # Flavor Info
 
 {% hint style="warning" %}
-To use a flavor for Server in Project, you have to assign the flavor to the project first. You can do so during [project creation](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) or in _Flavor Info_ tab.
+To use a _flavor_ for Server in the project, you have to assign the _flavor_ to the project first. You can do so during [project creation](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) or in _Flavor Info_ tab.
 {% endhint %}
 
 
