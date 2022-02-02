@@ -2,7 +2,7 @@
 
 By clicking _VMs_ button in Servers page or VMs _View_ in Project page you are redirected to the **VMs** **Servers**. Here you can see all virtual machines for the project with their description.
 
-![Fig. 1: Accessing Project's details - VMs](../../.gitbook/assets/servers-vms.gif)
+![Fig. 1: Accessing Project's details - VMs](../../.gitbook/assets/access-vms-servers.gif)
 
 
 
@@ -47,17 +47,17 @@ Once the cluster is committed you will see **ETC** in project info.
 
 When the server/s are _Failed,_ use repair button.
 
-![Fig. 4: Repair](<../../.gitbook/assets/repair (8) (1).gif>)
+![Fig. 4: Repair](<../../.gitbook/assets/repair (10).gif>)
 
 ### Add VM
 
 To create a new server click![](../../.gitbook/assets/add-vm-btn.png)button and fill all the fields. You, as user, can't delete servers - think twice which and how many servers you want to create.
 
 {% hint style="warning" %}
-For creating the VM: _**Image**_ has to be bound and _**Stanalone Profile**_ has to be created. Please contact your manager if these are empty.
+For creating the VM: _**Image**_ has to be bound and _**Stanalone Profile**_ has to be created.
 {% endhint %}
 
-![Fig. 4: Add VM](../../.gitbook/assets/add-vm.gif)
+![Fig. 4: Add VM](../../.gitbook/assets/add-vms.gif)
 
 _Server Name_ - only alphanumeric characters and dash are allowed, 1-30 characters
 

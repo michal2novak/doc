@@ -195,7 +195,7 @@ This button will redirect you to Audit Log with pre-filled organization and proj
 
 Add a new kubernetes configuration for your profile and project.
 
-![Fig. 8: Add Kube Config](<../../.gitbook/assets/kubeconfig (2).png>)
+![Fig. 8: Add Kube Config](<../../.gitbook/assets/add-kube-config (1).png>)
 
 _Kubeconfig Name_ - choose a name for your kubeconfig
 
@@ -210,7 +210,7 @@ _Kubeconfig Role_
 For more info, see [kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles).
 {% endhint %}
 
-_Application kubeconfig_ - choose if kubeconfig can be used by other users (_all_ or _managers only_) or _Personal kubeconfig_ - kubeconfig can be used only by you
+_Application kubeconfig_ - choose if kubeconfig can be used by other users (_all_ or _managers only_) or _Personal kubeconfig_ - kubeconfig can be used only by you (_Target User_ is empty) or choose user you want to create the kubeconfig for
 
 
 

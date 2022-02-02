@@ -112,7 +112,7 @@ Add a new kubernetes configuration for your profile and project.
 
 ![Fig. 7: Add Kubeconfig](../../.gitbook/assets/add-kube-config.png)
 
-_Kubeconfig Name_ - choose a name for your kubeconfig (3-30 characters)
+_Kubeconfig Name_ - choose a name for your kubeconfig (3-230 characters)
 
 _Kubeconfig Role_
 

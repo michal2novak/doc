@@ -20,7 +20,7 @@ When there is some operation going on, you can also see here ETC=Estimated Time 
 
 Every Server is described by _ID_, _Name_, _Flavor_, _IP Address_, _Public IP Address_, _Status_, _Profile_, _Image_ and _Created_. If you expand the table, you can see the last modification made (_Created By_, _Last Modified_, _Last Modified By_).
 
-![Fig. 3: Servers for Project](../../.gitbook/assets/servers-vms.png)
+![Fig. 3: Servers for Project](<../../.gitbook/assets/servers-vms (1).png>)
 
 Server status can be:
 

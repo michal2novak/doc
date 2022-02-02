@@ -1,8 +1,8 @@
 # Kubernetes
 
-To access **Kubernetes** go to Projects - Servers - _Kube Info_ or use the K8's button![](../../.gitbook/assets/kubernetes-active.png)in _Projects_.
+To access **Kubernetes** go to Projects - Servers - _K8s Info_ or use the K8's button![](../../.gitbook/assets/kubernetes-active.png)in _Projects_.
 
-![Fig. 1: Access Kubernetes](<../../.gitbook/assets/access kubernetes (1).gif>)
+![Fig. 1: Access Kubernetes](../../.gitbook/assets/access-kubernetes.gif)
 
 
 
