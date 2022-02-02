@@ -47,7 +47,7 @@ Once the cluster is committed you will see **ETC** in project info.
 
 When the server/s are _Failed,_ use repair button.
 
-![Fig. 4: Repair](<../../.gitbook/assets/repair (8).gif>)
+![Fig. 4: Repair](<../../.gitbook/assets/repair (8) (1).gif>)
 
 ### Add VM
 

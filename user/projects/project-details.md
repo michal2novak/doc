@@ -8,9 +8,9 @@ By clicking the selected project or K8s _View_ you are redirected to the **Kuber
 
 ### Project Info
 
-Under **Servers** title is a brief description of the project - such as _Project Name ****_ (with locked/unlocked image), _Project_ _Status_, _Cloud_ _Type_, _Kubernetes_ _Version_, _Access Profile_,  _Cloud_ _Credentials_, _Kubernetes_ _Profile_, _Alerting Profile_, _Access IP Address_ (if you use this address to ssh connect, please do not use user ubuntu, it's in use by Taikun for managing the cluster) and _Kubernetes Health_.
+Under **Servers** title is a brief description of the project - such as _Project Name ****_ (with locked/unlocked image), _Project_ _Status_, _Cloud_ _Type_, _Kubernetes_ _Version_, _Access Profile_,  _Cloud_ _Credentials_, _Kubernetes_ _Profile_, _Alerting Profile_, _Policy Profile_, _Access IP Address_ (if you use this address to ssh connect, please do not use user ubuntu, it's in use by Taikun for managing the cluster) and _Kubernetes Health_.
 
-![Fig. 2: Project Info](../../.gitbook/assets/label.png)
+![Fig. 2: Project Info](../../.gitbook/assets/project-info.png)
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
 
@@ -20,9 +20,9 @@ You can also see here ETC=Estimated Time to Complete. It is approx time (in minu
 
 ### Servers
 
-Every Server is described by _ID_, _Server Name_, _IP Address_, _Flavor_, _CPU/RAM/Disk Size_, _Role_, _Status_, _Kubernetes Health_ and _Creation Time_. If you expand the table, you can see the last modification made (_Last Modified_, _Last Modified By_).
+Every Server is described by _ID_, _Server Name_, _IP Address_, _Flavor_, _CPU/RAM/Disk Size_, _Role_, _Status_, _Kubernetes Health_ and _Creation Time_. If you expand the table, you can see the last modification made (_Created By_, _Last Modified_, _Last Modified By_).
 
-![Fig. 3: Servers for Project](<../../.gitbook/assets/servers (6).png>)
+![Fig. 3: Servers for Project](<../../.gitbook/assets/servers (10).png>)
 
 Server status can be:
 
@@ -55,7 +55,7 @@ Once the cluster is committed you will see [**ETC**](https://itera.gitbook.io/ta
 
 When the server/s are _Failed_ or there is some other problem in the cluster, use repair button.
 
-![Fig.4: Repair](<../../.gitbook/assets/repair (5).gif>)
+![Fig.4: Repair](<../../.gitbook/assets/repair (8).gif>)
 
 
 
@@ -69,7 +69,7 @@ If the project is locked:lock: (which you can see under [**Project Info**](https
 
 To create a new server click![](<../../.gitbook/assets/add server (2).png>)button and fill all the fields. You, as user, can't delete servers - think twice which and how many servers you want to create.
 
-![Fig. 5: Add Server](<../../.gitbook/assets/add workers (2).gif>)
+![Fig. 5: Add Server](../../.gitbook/assets/add-server.gif)
 
 _Server Name_ - only alphanumeric characters and dash are allowed, 1-30 characters
 
@@ -104,19 +104,18 @@ __
 
 Between _Project Info_ and _Servers_ are buttons with specific features or more detailed information.
 
-![Fig. 6: Function Buttons](<../../.gitbook/assets/action buttons (15).png>)
+![Fig. 6: Function Buttons](../../.gitbook/assets/function-buttons.png)
 
 ### Kubeconfigs
 
 Add a new kubernetes configuration for your profile and project.
 
-![Fig. 7: Add Kubeconfig](<../../.gitbook/assets/add kube config.png>)
+![Fig. 7: Add Kubeconfig](../../.gitbook/assets/add-kube-config.png)
 
-_Kubeconfig Name_ - choose a name for your kubeconfig (3-230 characters)
+_Kubeconfig Name_ - choose a name for your kubeconfig (3-30 characters)
 
 _Kubeconfig Role_
 
-* cluster-admin - perform any action on any resource, ClusterRoleBinding - gives full control over every resource in the cluster and in all namespaces (or in very resource in the role binding's namespace - RoleBinding)
 * admin - RoleBinding - allows read/write access to most resources in a namespace, does not allow write access to resource quota or to the namespace itself&#x20;
 * edit - allows read/write access to most objects in a namespace, does not allow viewing or modifying roles or role bindings, allows accessing Secrets and running Pods as any ServiceAccount in the namespace
 * view - see most objects in a namespace, does not allow viewing roles or role bindings, does not allow viewing Secrets
@@ -125,13 +124,13 @@ _Kubeconfig Role_
 For more info, see[ kubernetes documentation](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#user-facing-roles).
 {% endhint %}
 
-_Application/Personal Kubeconfig_ - choose if kubeconfig can be used by other users or only by you
+_Personal Kubeconfig_ - kubeconfig can be used only by you
 
 __
 
 You can see all project's configurations in the table with its _ID_, _Name_, _User_ _Name_, _User_ _Role_, _Project_, _Accessible for all_ and _Actions_.
 
-![Fig.8: Kube Configs](<../../.gitbook/assets/kubeconfig (1).png>)
+![Fig.8: Kube Configs](../../.gitbook/assets/kubeconfig-overview.png)
 
 #### Actions
 

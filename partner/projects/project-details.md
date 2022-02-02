@@ -1,16 +1,16 @@
-# Project Details
+# Project Details - K8s
 
 By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.
 
-![Fig. 1: Accessing project's details](<../../.gitbook/assets/access servers (3).gif>)
+![Fig. 1: Accessing project's details](../../.gitbook/assets/access-k8s-servers.gif)
 
 
 
 ### Project Info
 
-Under **Servers** title is a brief description of a project - such as _Project Name_, _Project_ _Status_, _Cloud_ _Type_, _Kubernetes_ _Version_, _Access Profile_,  _Cloud_ _Credentials_, _Kubernetes_ _Profile_, _Alerting Profile_, _Access IP Address_ (if you use this address to ssh connect, please do not use user ubuntu, it's in use by Taikun for managing the cluster) and _Kubernetes Health_. Some of these include links to e.g. cloud or profiles.
+Under **Servers** title is a brief description of a project - such as _Project Name_, _Project_ _Status_, _Cloud_ _Type_, _Kubernetes_ _Version_, _Access Profile_,  _Cloud_ _Credentials_, _Kubernetes_ _Profile_, _Alerting Profile_, _Policy Profile_, _Access IP Address_ (if you use this address to ssh connect, please do not use user ubuntu, it's in use by Taikun for managing the cluster) and _Kubernetes Health_. Some of these include links to e.g. cloud or profiles.
 
-![Fig. 2: Brief Project Info](<../../.gitbook/assets/label (1).png>)
+![Fig. 2: Brief Project Info](<../../.gitbook/assets/project-info (1).png>)
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
 
@@ -216,7 +216,7 @@ _Application kubeconfig_ - choose if kubeconfig can be used by other users (_all
 
 You can see all project's configurations in the table with its _ID_, _Name_, _User_ _Name_, _User_ _Role_, _Project_, _Accessible for all_ and _Actions_.
 
-![Fig. 9: Kubeconfigs](<../../.gitbook/assets/kubeconfig (3).png>)
+![Fig. 9: Kubeconfigs](<../../.gitbook/assets/kubeconfig-overview (1).png>)
 
 #### Actions
 
