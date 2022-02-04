@@ -8,9 +8,9 @@ To use a _images_ for VMs in the project, you have to **bind the image to the pr
 
 ### Bind to Project
 
-Choose the _Cloud Type_ and _Credentials_ where your project is stored, then choose from drop down selection other criteria if needed. After selecting image/s you can bind it/them to the project.
+Choose _Organization_, _Cloud Type_ and _Credentials_ where your project is stored, then choose from drop down selection other criteria if needed. After selecting image/s you can bind it/them to the project.
 
-![Fig. 1: Bind to Project](<../.gitbook/assets/bind the image.gif>)
+![Fig. 1: Bind to Project](../.gitbook/assets/bind-image.gif)
 
 An error message is displayed, if the _image_ is already bound to the project.
 
