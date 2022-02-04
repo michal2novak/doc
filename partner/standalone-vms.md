@@ -8,7 +8,7 @@ You can find specific server with adjusting the _CPU_, _RAM_ and _Volume_ _Size_
 
 To access server details, click _Name_ or _Project Name._
 
-![Fig. 1: Servers](<../.gitbook/assets/overview (6).png>)
+![Fig. 1: Servers](<../.gitbook/assets/overview (6) (1).png>)
 
 ####
 
